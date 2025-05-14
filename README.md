@@ -29,6 +29,7 @@ Matriz de Confusão
 Curva ROC
 Comparação com DummyClassifier (baseline)
 - Feature Engineering guiada por boas práticas e pela LGPD
+- TESTE A/B com outros algoritmos: Comecei com RandomForest e depois fiz teste com LogisticRegression e XGBoost
 
 ## Tecnologias e bibliotecas utilizadas
 - Python
@@ -36,7 +37,7 @@ Comparação com DummyClassifier (baseline)
 - Scikit-Learn
 - Imbalanced-Learn (SMOTE)
 - Matplotlib/ Seaborn
-- RegressionLogistic
+- RandomForest, XGBoost, LogisticRegression
 
 ## Possíveis melhorias futuras
 - implementar um dashboard com Streamlit para uma analise interativa
@@ -44,6 +45,6 @@ Comparação com DummyClassifier (baseline)
 - Testar modelos mais robustos com validacao cruzada estratificada
 
 ## Consideracoes Finais
-Mais do que um projeto técnico, esse trabalho representa uma jornada de aprendizado. Mesmo com obstáculos (como o curso desatualizado), aprendi sobre risco de crédito, ética no uso de dados (LGPD), e ganhei mais segurança para aplicar técnicas de Machine Learning de forma responsável.
+A regressao Logisitica se mostrou o melhor modelo no meu A/B tanto em AUC quanto no F1-score da classe possitiva. O XGBoost teve o pior desempenho o que podiamos ver a necessidade de um tunning nos hiperparametros e o RandomForest ficou muito proximo. Gostei de fazer o projeto, quero aprender mais sobre Features Engineering ter o pensamento critico para melhorar cada vez mais os modelos, esse tambem foi meu primeiro projeto de Machine Learning feito sozinho com a ajuda do GPT, pretendendo fazer mais por que é uma area que gosto muito de fazer e futuramente implementar no ambiente de execucao. 
 
   
